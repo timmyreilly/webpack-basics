@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ReactDom from "react-dom"; 
+import ReactDOM from "react-dom"; 
 import Input from "../presentational/Input"; 
 
 class FormContainer extends Component {
@@ -21,6 +21,7 @@ class FormContainer extends Component {
         const { seo_title } = this.state; 
         return (
             <form id="article-form">
+            <h1> God Dam</h1> 
                 <Input 
                     text="SEO title"
                     label="seo_title"
